@@ -1,0 +1,16 @@
+/* Whole Site specifications */
+
+/*Header*/
+#header {
+	position: fixed;
+}
+/* Content*/
+#content {
+	margin-top: 100px;
+}
+
+/* Home Page */
+#home {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
