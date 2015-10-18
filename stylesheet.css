@@ -94,6 +94,17 @@ a {
 }
 
 /* Content*/
+
+#about {
+	margin: auto;
+	text-align: center;
+}
+
+#contact {
+	margin:auto;
+	text-align:center;
+}
+
 #content {
 	background-color: white;
 }

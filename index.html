@@ -25,7 +25,7 @@
 			<div id="home">
 			<!-- empowering students -->
 			<span style= "color:white; font-family:Roboto; font-size: 80px;text-transform: uppercase;"> empowering students </span>
-			<p></p> <span style="color:white; font-size:32px"> To Find and Follow Their Vocation</span></p>
+			<p></p> <span style="color:white; font-size:32px"> to Find and Follow Their Vocation</span></p>
 			
 			<p></p>
 			<!-- image -->
@@ -44,7 +44,7 @@
 			</div>
 				
 			<div id="about">
-			<a href=""> <button type=""> 
+			<p id="atitle"> </p>
 			</div>
 			
 			<div id="technology">
@@ -53,12 +53,26 @@
 			<div id="next">
 			</div>
 			
+			<!-- div page -->
 			<div id="contact">
+				<form id="contact_form" action="action.php" method="POST" enctype="multipart/form-data">
+					<div class="row">
+					<label for="name">Your name:</label><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
 			</div>
-			
-			
-		</div>
+			<div class="row">
+			<label for="email">Your email:</label><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			</div>
+			<div class="row">
+				<label for="message">Your message:</label><br />
+				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				</div>
+				<input id="submit_button" type="submit" value="Send email" />
+				</form>						
+					</div>	
+			</div>
+		
 	</body>
-	
-	
+	</html>
 			
