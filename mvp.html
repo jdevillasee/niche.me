@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> nicheME </title>
+		<title> DocSim </title>
 		<link type="text/css"; rel="stylesheet"; href="/mvp.css"/>
 		<script type="text/javascript" src="/mvp.js"> </script>
 		<script type="text/javascript" src="/jquery.min.js"> </script>
 	</head>
 	
 	<body>
-		<p color="#red"> "Hello Doctor. Click on the area of the hospital you would  like to go to first. </p>
+		<p color="#red"> "Hello Doctor. Use the legend to navigate the hospital. </p>
 		<img src="/Images/Screen Shot 2015-10-18 at 7.25.38 AM.png" usemap="#Map" />
-<map name="Map" id="Map">
-    <area alt="" title="" href="#" shape="rect" coords="206,799" />
-    <area alt="" title="" href="#" shape="rect" coords="893,318,726,424" />
-    <area alt="" title="" href="/map.php" shape="rect" coords="181,830,274,833" />
-    <area alt="" title="" href="https://www.youtube.com/watch?v=jXXYNwOMUro" shape="poly" coords="116,258,115,410,414,408,419,260" />
+<map name="Map" id="Map" height: "50%">
+     <area alt="" title="Emergency" href="#" shape="poly" coords="1132,7,1132,35,1162,35,1160,6" />
+    <area alt="" title="Admin" href="/admin.html" shape="poly" coords="1132,55,1159,55,1160,86,1135,84" />
+    <area alt="" title="Baby" href="https://www.youtube.com/watch?v=jXXYNwOMUro" shape="poly" coords="1134,101,1134,126,1162,128,1160,102" />
+    <area alt="" title="Cafeteria" href="#" shape="poly" coords="1130,147,1162,146,1161,177,1132,179" />
+    <area alt="" title="Chapel" href="" shape="poly" coords="1132,193,1160,193,1165,221,1133,226,1132,241" />
+    <area alt="" title="Family Waiting" href="#" shape="poly" coords="1130,290,1159,290,1134,319,1160,318" />
+    <area alt="" title="Lab Testing" href="/map.php" shape="rect" coords="1136,459,1161,459" />
+    <area alt="" title="Patient Payments" href="#" shape="poly" coords="1133,571,1160,572,1134,597,1158,599" />
+    <area alt="" title="Surgery" href="#" shape="poly" coords="1132,712,1158,713,1134,742,1161,740" />
+    
     [...]
 </map>
 			<!-- Extent -->
