@@ -120,6 +120,7 @@ a {
 	display: block;
 	margin: auto;
 	text-align: center;
+	align-content: center;
 }
 
 .circle {
@@ -140,7 +141,8 @@ technology {
 
 /*next*/
 #next {
-	text-align: center;	
+	text-align: center;
+	margin: auto;
 	
 }
 
