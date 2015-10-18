@@ -51,7 +51,7 @@ a {
 /* Home Page */
 #home {
 	position: absolute;
-	top: 52px; right: 0; bottom: 0; left: 0;
+	top: 50px; right: 0; bottom: 0; left: 0;
 	background-color: #2a1f2d;
 	text-align: center;
 	padding-top: 5%;
@@ -96,15 +96,23 @@ a {
 /* Content*/
 
 #about {
+	display: block;
 	margin: auto;
 	text-align: center;
 }
 
 #contact {
+	display: block;
 	margin:auto;
 	text-align:center;
 }
 
 #content {
 	background-color: white;
+	color: #3b2c35;
+	font-size: 25px;
+}
+
+#submit_button {
+	background-color: #ffcc00;
 }
