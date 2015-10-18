@@ -31,26 +31,28 @@
 			   [  
 				  {  
 					 "label":"Iron",
-					 "value":"880000"
+					 "value":"5"
 				  },
 				  {  
 					 "label":"Vitamin D",
 					 "value":"20"
 				  },
 				  {  
-					 "label":"Los Angeles Topanga",
-					 "value":"590000"
+					 "label":"Cholesterol",
+					 "value":"59"
 				  },
 				  {  
 					 "label":"Glucose",
 					 "value":"105"
 				  },
 				  {  
-					 "label":"Daly City Serramonte",
-					 "value":"330000"
+					 "label":"Seatonin",
+					 "value":"33"
 				  }
 			   ]
 		}');
 	// Render the chart
 	$columnChart->render();
 ?>
+
+
