@@ -141,6 +141,7 @@ technology {
 /*next*/
 #next {
 	text-align: center;	
+	
 }
 
 .nextones {
@@ -148,6 +149,7 @@ technology {
 	border-radius: 20%;
 	margin: 0, 15px, 0 15px;
 	height: 50px;
+	width: 50px;
 	text-align: center;
 }
 
