@@ -5,12 +5,12 @@ html, body {
 
 hr { 
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top:25px;
+    margin-bottom:25px;;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 1px;
+    border-width: 3px;
 	color: darkgray;
 } 
 *{
@@ -126,7 +126,8 @@ a {
 	background-color: #ffcc00;
 	color: azure;
 	border-radius: 100%;
-	height: 100px;
+	height: 75px;
+	width: 75px;
 	text-align: center;
 	margin: 0, 35px, 0, 35px;
 }
