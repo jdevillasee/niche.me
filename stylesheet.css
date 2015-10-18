@@ -30,10 +30,9 @@ a {
 	top: 0;
 	left: 0;
 	z-index: 2000;
-	width: 100%;
+	width: 90%;
 	height: 50px;
 	line-height: 50px;
-	padding: 12px;
 	
 	/* Text */
 	text-align: right;
