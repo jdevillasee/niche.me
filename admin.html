@@ -6,7 +6,6 @@
 <body>  
 	<p> Your patient is ready to check out. Please complete her discharge forms </p>
   <div id="contact">
-				<p class="subtitle fancy"> <span style="size: 30px; color: #59c9a5;"> We would love to hear from you! </span></p>
 				<form id="contact_form" action="action.php" method="POST" enctype="multipart/form-data">
 					<div class="row">
 					<label for="pname">Patient Name:</label><br />
@@ -22,7 +21,7 @@
 			</div>
       <div class="row">
 			<label for="des">Description</label><br />
-			<input id="des" class="input" name="des" type="text" value="" size="30" /><br />
+			<input id="des" class="input" name="des" type="text" rows="7" cols="30" /><br />
 			</div>
 			<div class="row">
 				<label for="treatment" >Treatment:</label><br />
@@ -30,7 +29,7 @@
 				</div>
       <div class="row">
 			<label for="ref">Referral</label><br />
-			<input id="ref" class="input" name="ref" type="text" value="" size="30" /><br />
+			<input id="ref" rows="7" class="input" name="ref" type="text" value="" cols="30" /><br />
 			</div>
 				<input id="submit_button" type="submit" value="Submit for discharge" color="#ffcc00"/>
 				</form>						
