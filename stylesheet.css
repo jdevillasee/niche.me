@@ -106,9 +106,11 @@ a {
 /* Content*/
 #content {
 	position: absolute;
-	width: 100%;
+	width: 80%;
 	margin-top: 60%;
 	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 /* About Page */
