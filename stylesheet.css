@@ -3,6 +3,16 @@ html, body {
 	height: 100%;
 }
 
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	color: darkgray;
+} 
 *{
 	font-family: Century Gothic;
 }
@@ -116,20 +126,28 @@ a {
 	background-color: #ffcc00;
 	color: azure;
 	border-radius: 100%;
-	height: 50px;
-	display: inline;
+	height: 100px;
+	text-align: center;
+	margin: 0, 35px, 0, 35px;
 }
+
+/*Technology page */
+
+technology {
+	text-align: center;
+}
+
 /*next*/
 #next {
 	text-align: center;	
 }
 
 .nextones {
-	border-color: aqua;
+	border: 3px solid #ffcc00;
 	border-radius: 20%;
-	display: inline;
 	margin: 0, 15px, 0 15px;
 	height: 50px;
+	text-align: center;
 }
 
 /*Contact Page */
