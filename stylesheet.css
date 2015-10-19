@@ -123,7 +123,7 @@ a {
 	color: #2a1f2d;
 }
 
-.circle {
+ .circle {
 	background-color: #ffcc00;
 	color: azure;
 	border-radius: 100%;
@@ -133,13 +133,15 @@ a {
 	bottom: 15px;
 	text-align: center;
 	margin: 0, 35px, 0, 35px;
+	display: inline;
+	line-height: 75px;
 }
 
 /*Technology page */
 
 #technology {
 	text-align: center;
-	color: ;
+	align-content: center;
 }
 
 #technology a {
@@ -149,11 +151,15 @@ a {
 .goals {
 	margin: auto;
 	top: 0;
+	display: inline-block;
+	line-height: 55px;
+	text-align: left;
 }
 /*next*/
 #next {
 	text-align: center;
 	margin: auto;
+	align-content: center;
 }
 
 .nextones {
@@ -161,7 +167,7 @@ a {
 	border-radius: 20%;
 	margin: 0, 15px, 0 15px;
 	height: 70px;
-	width: 70px;
+	width: 90px;
 	text-align: center;
 }
 
