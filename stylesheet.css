@@ -146,6 +146,7 @@ a {
 
 #technology a {
 	color: aquamarine;
+	align-content: center;
 }
 
 .goals {
@@ -169,6 +170,7 @@ a {
 	height: 70px;
 	width: 90px;
 	text-align: center;
+	align-content: center;
 }
 
 /*Contact Page */
